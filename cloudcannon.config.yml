@@ -1,9 +1,12 @@
 paths:
-  uploads: uploads
+  uploads: images
   static: ''
 collections_config:
   pages:
-    path: _pages
+    path: ''
+    glob: 
+      - '*.html'
+      - '_pages/**/*.md'
     icon: wysiwyg
     disable_url: false
     disable_add: false
